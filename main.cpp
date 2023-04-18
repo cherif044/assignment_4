@@ -13,7 +13,7 @@ void insertAfter(vector<int>& x, int first, int second)
 		if (*y == first)
 		{
 			x.insert(y+1, second);                               //looping over the vector and inserting in the next position in case the values are equal
-			y++;                                                 // incrementing the itirator because we don't need to check the added value
+			y++;
 		}
 	}
 }
